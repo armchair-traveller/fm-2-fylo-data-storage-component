@@ -1,49 +1,8 @@
-# Frontend Mentor template
-
-This template's objective is to provide a quick and easy starting point for all my frontend mentor challenges. Avoid decision paralysis, busy work, and get down to what really matters: Getting obliterated by those challenges. It features all the improvements (boilerplate, utils, tech) I've developed with each consecutive project.
-
-## Usage
-
-```shell
-npx degit clone armchair-traveller/fm-template
-```
-
 ## Overview
 
-Config and tech stack is subject to change, any major tech changes will create a new version right before starting a new challenge.
-
-Releases are tagged by semantic version description e.g. `num`-`tech` 1-svelte-kitpages, 2-react-nextcel
-
-README tracks current tech details that're not mentioned as a package, as well as additional required config (like global names, styles, and variables, unless it has a TODO to mark it).
-
-## Base required files
-
-Most files are subject to change. Only the README and `.node-version` are stack agnostic, thus' they're the ones that should really be kept if starting fresh.
-
-## Guidelines
-
-Covers boilerplate config and challenge guidelines.
-
-- Every challenge must be in a new repository, as maintaining improvements & specific project config across challenges is very difficult. Greenfield projects for each allows you to take advantage of the latest tech.
-- Naming convention of each challenge: fm-`#`-`challenge-name` to keep track of challenge
-  - If notes are made, please place in README of challenge. Boilerplate README should also be improved for each challenge so that less setup context is needed.
-
-TODO: Add more README boilerplate so that new challenges also get a boilerplate README (is preserved) reflecting the current tech used for the challenge.
-
-TODO:
-**Below this line lies my README template, delete all of the above for any challenges!**
-
-TODOs are present whereever things need to be edited or removed on challenge completion.
-
----
-
-TODO: Copy paste name of challenge header and description from top of `README-template.md`
-
-## Overview
+## Time: ~3hrs
 
 ### The challenge
-
-TODO: Edit this section if there're additional requirements in README
 
 Users should be able to:
 
@@ -62,24 +21,17 @@ TODO: Add your live site URL to GitHub repo description
 - Tailwind CSS (JIT mode)
 - Cloudflare pages
 
-**Other**
-
-- VSCode Svelte extension
-- pnpm for less dependency storage cost
-
-TODO: Add additional as needed
-
 ### What I learned
 
-TODO: recap over some of your major learnings while working through this project. Write these out and provide code samples of areas you want to highlight for recall and reference for others. Things you were proud of.
+- I find it intriguing that I didn't have to adjust any of the markup moving to desktop dimensions. Though it might have been better if I did.
+- Recalled some stuff from my notes. Especially the tooltip. I rotated the corner of it 90degs and it... just worked, surprisingly. Also reviewed background properties and recalled that the shorthand is bad practice if you plan to override any of its individual properties later (which is likely and happened here).
+- Interestingly, I realized that when you begin styling desktop dimensions, styling from the inside-out (bottom-up) is signfiicantly easier than top-down. After that realization, things proceeded very very quickly, and I plan to apply this process to components, too.
 
 ### Continued development
 
-TODO: Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. Or just delete this seciton outright.
+- I should better understand positions, as this current layout, especially the background, can break easily by resizing dimensions. It's definitely inflexible, but it works. To be fair, I have never covered positions in great depth and understand them from a surface level (some courses cover them but they don't give tons of real-world situations for dealing with common edge cases).
+- Perhaps, an improvement would add more markup instead of simply styling the `main` element. I definitely should have more containers next time. I realized I have a bad habit that makes me avoid adding markup because I feel unnecessary markup could clutter up stuff, but instead I end up adding insufficient markup.
 
 ### Useful resources
 
-TODO:
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept
+- [CSS In-Depth v2](https://frontendmasters.com/courses/css-in-depth-v2/) - I reviewed my notes and remembered this covered background properties (the bad practice of the shorthand) and the tooltip with :after pseudo-elements. Many of the slides were very helpful as a quick cheat-sheet, and there were some good examples that allowed me to quickly arrive at my solution, even if they required some tweaking.

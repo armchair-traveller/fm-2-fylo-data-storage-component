@@ -1,4 +1,9 @@
-<div class="attribution">
+<script>
+  let className = "";
+  export { className as class };
+</script>
+
+<div class="attribution {className}">
   Challenge by <a
     href="https://www.frontendmentor.io?ref=challenge"
     target="_blank">Frontend Mentor</a
@@ -11,6 +16,9 @@
     text-align: center;
   }
   .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: gray;
+  }
+  div {
+    color: white;
   }
 </style>
