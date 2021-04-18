@@ -24,7 +24,7 @@ TODO: Add your live site URL to GitHub repo description
 ### What I learned
 
 - I find it intriguing that I didn't have to adjust any of the markup moving to desktop dimensions. Though it might have been better if I did.
-- Recalled some stuff from my notes. Especially the tooltip. I rotated the corner of it 90degs and it... just worked, surprisingly. Also reviewed background properties and recalled that the shorthand is bad practice if you plan to override any of its individual properties later (which is likely and happened here).
+- Recalled some stuff from my notes. Especially the tooltip. I rotated the corner of it 90degs and it... just worked, surprisingly. Also reviewed background properties and recalled that the shorthand is bad practice if you plan to override any of its individual properties later (which is likely, and happened here).
 - Interestingly, I realized that when you begin styling desktop dimensions, styling from the inside-out (bottom-up) is significantly easier than top-down. After that realization, things proceeded very very quickly, and I plan to apply this process to components, too.
 
 ### Continued development
