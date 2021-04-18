@@ -49,7 +49,7 @@
     <h3
       class="[ tooltip ] absolute whitespace-nowrap text-black bg-white rounded-lg font-bold p-4 text-4xl flex items-center mt-24 lg:-mt-20 lg:ml-[22rem]"
     >
-      185 <span class="text-sm ml-2 text-gray-400">GB Left</span>
+      185 <span class="text-sm ml-2 text-gray-400 uppercase">GB Left</span>
     </h3>
   </section>
 </main>
