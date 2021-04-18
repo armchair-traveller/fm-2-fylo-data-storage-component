@@ -10,9 +10,11 @@ Users should be able to:
 
 TODO: Add screenshot here! Use Chrome Dev Tools ctrl+shift+p screenshot full page. Or more preferably use screenshot.rocks
 
-[Solution](https://fm-2-fylo-data-storage-component.pages.dev/)
+[Solution](TODO: Solution)
 
-![preview](./screenshot.jpeg)
+[Live](https://fm-2-fylo-data-storage-component.pages.dev/)
+
+![preview](/screenshot.jpeg)
 
 ## Built with
 
@@ -29,7 +31,7 @@ TODO: Add screenshot here! Use Chrome Dev Tools ctrl+shift+p screenshot full pag
 ### Continued development
 
 - I should better understand positions, as this current layout, especially the background, can break easily by resizing dimensions. It's definitely inflexible, but it works. To be fair, I have never covered positions in great depth and understand them from a surface level (some courses cover them but they don't give tons of real-world situations for dealing with common edge cases).
-- Perhaps, an improvement would add more markup instead of simply styling the `main` element. I definitely should have more containers next time. I realized I have a bad habit that makes me avoid adding markup because I feel unnecessary markup could clutter up stuff, but instead I end up adding insufficient markup.
+- Perhaps, an improvement would add more markup instead of simplWy styling the `main` element. I definitely should have more containers next time. I realized I have a bad habit that makes me avoid adding markup because I feel unnecessary markup could clutter up stuff, but instead I end up adding insufficient markup.
 
 ### Useful resources
 
