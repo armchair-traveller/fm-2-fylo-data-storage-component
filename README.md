@@ -10,10 +10,9 @@ Users should be able to:
 
 TODO: Add screenshot here! Use Chrome Dev Tools ctrl+shift+p screenshot full page. Or more preferably use screenshot.rocks
 
-TODO: Solution URL: [Add solution URL here](https://your-solution-url.com)
-TODO: Add your live site URL to GitHub repo description
+[Solution](https://fm-2-fylo-data-storage-component.pages.dev/)
 
-![preview](./screenshot.png)
+![preview](./screenshot.jpeg)
 
 ## Built with
 
