@@ -6,60 +6,60 @@
   ><title>Frontend Mentor | Fylo data storage component</title>
 </svelte:head>
 
-<main
-  class="w-[375px] h-[667px] flex flex-col place-items-center place-content-center lg:w-screen lg:flex-row"
+<div
+  class="flex flex-col place-items-center justify-center min-h-screen bg-main-400 lg:overflow-x-hidden"
 >
-  <section
-    class="bg-main-300 rounded-xl rounded-tr-[5rem] w-11/12 p-9 lg:w-auto lg:pr-32 lg:mr-7"
+  <main
+    class="w-[375px] h-[667px] flex flex-col place-items-center place-content-center lg:w-[1440px] lg:flex-row"
   >
-    <img src="/images/logo.svg" alt="logo" />
-    <div class="flex space-x-4 mt-9">
-      <div class="bg-main-400 flex items-center p-3 rounded-lg">
-        <img src="/images/icon-document.svg" alt="" />
+    <section
+      class="bg-main-300 rounded-xl rounded-tr-[5rem] w-11/12 p-9 lg:w-auto lg:pr-32 lg:mr-7"
+    >
+      <img src="/images/logo.svg" alt="logo" />
+      <div class="flex space-x-4 mt-9">
+        <button class="bg-main-400 flex items-center p-3 rounded-lg">
+          <img src="/images/icon-document.svg" alt="" />
+        </button>
+        <button class="bg-main-400 flex items-center p-3 rounded-lg">
+          <img src="/images/icon-folder.svg" alt="" />
+        </button>
+        <button class="bg-main-400 flex items-center p-3 rounded-lg">
+          <img src="/images/icon-upload.svg" alt="" />
+        </button>
       </div>
-      <div class="bg-main-400 flex items-center p-3 rounded-lg">
-        <img src="/images/icon-folder.svg" alt="" />
-      </div>
-      <div class="bg-main-400 flex items-center p-3 rounded-lg">
-        <img src="/images/icon-upload.svg" alt="" />
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section
-    class="bg-main-300 rounded-xl w-11/12 mt-4 p-9 flex flex-col items-center pb-10 lg:w-auto"
-  >
-    <p class="tracking-wide lg:self-start">
-      You’ve used <span class="font-bold">815 GB</span> of your storage
-    </p>
+    <section
+      class="bg-main-300 rounded-xl w-11/12 mt-4 p-9 flex flex-col items-center pb-10 lg:w-auto"
+    >
+      <p class="tracking-wide lg:self-start">
+        You’ve used <span class="font-bold">815 GB</span> of your storage
+      </p>
 
-    <div class="w-full mt-3">
-      <div class="rounded-full bg-main-400 bg-opacity-50 p-1 lg:w-[500px]">
-        <div
-          class="[ progress ] w-[81.5%] rounded-full flex flex-row-reverse p-[2px]"
-        >
-          <div class="rounded-full bg-white h-[10px] w-[10px]" />
+      <div class="w-full mt-3">
+        <div class="rounded-full bg-main-400 bg-opacity-50 p-1 lg:w-[500px]">
+          <div
+            class="[ progress ] w-[81.5%] rounded-full flex flex-row-reverse p-[2px]"
+          >
+            <div class="rounded-full bg-white h-[10px] w-[10px]" />
+          </div>
+        </div>
+        <div class="flex justify-between mt-3">
+          <p class="font-bold">0 GB</p>
+          <p class="font-bold">1000 GB</p>
         </div>
       </div>
-      <div class="flex justify-between mt-3">
-        <p class="font-bold">0 GB</p>
-        <p class="font-bold">1000 GB</p>
-      </div>
-    </div>
-    <h3
-      class="[ tooltip ] absolute whitespace-nowrap text-black bg-white rounded-lg font-bold p-4 text-4xl flex items-center mt-24 lg:-mt-20 lg:ml-[22rem]"
-    >
-      185 <span class="text-sm ml-2 text-gray-400 uppercase">GB Left</span>
-    </h3>
-  </section>
-</main>
-<Attribution />
+      <h3
+        class="[ tooltip ] absolute whitespace-nowrap text-black bg-white rounded-lg font-bold p-4 text-4xl flex items-center mt-24 lg:-mt-20 lg:ml-[21.2rem]"
+      >
+        185 <span class="text-sm ml-2 text-gray-400 uppercase">GB Left</span>
+      </h3>
+    </section>
+  </main>
+  <Attribution class="mt-auto absolute bottom-0 mb-1" />
+</div>
 
 <style>
-  :global(body) {
-    @apply bg-main-400 min-h-full;
-  }
-
   main {
     font-size: 14px;
     @apply text-main-100;
@@ -69,9 +69,8 @@
   @media (min-width: 1024px) {
     main {
       background-image: url(/images/bg-desktop.png);
-      background-position: center 77%;
+      background-position: center 122%;
       background-repeat: no-repeat;
-      min-height: 100vh;
     }
     .tooltip:after {
       position: absolute;

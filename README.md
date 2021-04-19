@@ -30,8 +30,9 @@ TODO: Add screenshot here! Use Chrome Dev Tools ctrl+shift+p screenshot full pag
 
 ### Continued development
 
-- I should better understand positions, as this current layout, especially the background, can break easily by resizing dimensions. It's definitely inflexible, but it works. To be fair, I have never covered positions in great depth and understand them from a surface level (some courses cover them but they don't give tons of real-world situations for dealing with common edge cases).
-- Perhaps, an improvement would add more markup instead of simplWy styling the `main` element. I definitely should have more containers next time. I realized I have a bad habit that makes me avoid adding markup because I feel unnecessary markup could clutter up stuff, but instead I end up adding insufficient markup.
+- I definitely struggled with the background position. The key was as simple as creating another container, but I couldn't see it until I walked away for a while. Add more markup instead of simply styling the `main` element. I realized I have a bad habit that makes me avoid adding markup because I feel unnecessary markup could clutter up stuff, but instead I end up adding insufficient markup. I'll make an effort to be more loose about this, because I would've been done much faster if I was.
+  - In fact, I even considered skipping that part at the end. But I came back to it, as it seemed pretty straightforward, and I realized it was even simpler to correct than I was making it out to be because Tailwind doesn't care about your HTML tag, just where you attach your classes. So I quickly made some changes to the markup and most of the styles were the same (even though I changed some divs to buttons), it was done without any fanfare.
+- I'm very happy with Tailwind and it's my favorite styling solution at the moment. It also combines very nicely with Svelte's styles, which allows me to easily define custom styles where Tailwind might be too verbose or inflexible. It already speeds up my styling so much (especially with JIT & Vite's unbundler), so I'm definitely making plans to practice more with it and speed up my workflow even more!
 
 ### Useful resources
 
